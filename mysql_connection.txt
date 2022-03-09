@@ -1,5 +1,3 @@
-
-
 Just perform the following steps:
 
 1a) Connect to mysql (via localhost)
