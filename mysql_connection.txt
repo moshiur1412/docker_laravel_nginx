@@ -1,10 +1,11 @@
-Just perform the following steps:
+Just perform the following steps (MySQL Access Problem):
+========================================================
 
 1a) Connect to mysql (via localhost)
 
 mysql -uroot -p
 
-1b) If the myslq server is running in Kubernetes (K8s) and being accessed via a NodePort
+1b) If the mysql server is running in Kubernetes (K8s) and being accessed via a NodePort
 
 kubectl exec -it [pod-name] -- /bin/bash
 mysql -uroot -p
@@ -29,11 +30,13 @@ GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'password';
 
 
 ### Winpty problem solved
+===========================
 echo 'alias python="winpty python.exe"' >> ~/.bashrc
 source ~/.bashrc
 
 
 ### Folder full permission
+==============================
 php artisan cache:clear
 chmod -R 777 storage/
 composer dump-autoload
