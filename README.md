@@ -1,4 +1,4 @@
-Just perform the following steps (MySQL Access Problem):
+### MySQL Access Problem:
 ========================================================
 ```sh
 1a) Connect to mysql (via localhost)
